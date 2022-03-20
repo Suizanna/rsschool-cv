@@ -6,4 +6,4 @@ https://suizanna.github.io/rsschool-cv/cv
 
 HTML, CSS & Git Basics
 
-https:///suizanna.github.io/rsschool-cv/
+https://suizanna.github.io/rsschool-cv/
