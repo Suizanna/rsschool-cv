@@ -74,8 +74,11 @@ Bachelor | Musician 2013 - 2017
 
 ### Additional Education
 
-**IT Scholl GoIT**<br />
+**GoIT**<br />
 Full Stack Developer November 2020 - September 2021
+
+**RS School**<br />
+JavaScript/Front-End Developer 2021 - up to date
 
 ---
 
