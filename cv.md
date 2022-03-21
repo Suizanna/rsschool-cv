@@ -1,6 +1,7 @@
 # Siuzanna Maksimova
 
 ![photo](https://github.com/Suizanna/CV/blob/main/img/photo.JPG)
+![photo](./assets/img/photo.JPG)
 
 ## Junior Frontend Developer
 
