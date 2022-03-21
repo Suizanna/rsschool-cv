@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- main -->
+    <main class="main">
+        <div class="container">
+            <div class="main-container">
+                <!-- header -->
+                <header class="header">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- summary -->
+                <section class="section-summary" id="summary">
+                    <h1 class="section-name">Suizanna Maksimova</h1>
+                    <h2 class="section-profession">Junior Front-End Developer</h2>
+                    <p class="section-description">
+                        I am a Junior Front-End developer. I focus on HTML5,
+                        CSS3, JS, React. Looking for an interesting job with a good team,
+                        where I could improve my skills and use them for interesting tasks. Development, practice and
+                        work
+                        for the result
+                        are important for me.
+                    </p>
+                </section>
+                <!-- projects -->
+                <section class="projects" id="projects">
+                    <h3 class="title">Projects</h3>
+                    <ul class="projects-list">
+                        <li class="projects-item">
+                            <span class="projects-text">
+                                <a class="projects-link" href="https://suizanna.github.io/SUIZANNA-07-08/"
+                                    target="_blank">Web Studio</a>
+                                ..................................................................
+                                <span class="projects-bracket">[</span> HTML5, Sass <span
+                                    class="projects-bracket">]</span>
+                            </span>
+                        </li>
+                        <li class="projects-item">
+                            <span class="projects-text">
+                                <a class="projects-link" href="https://hellenglish.goit.global/"
+                                    target="_blank">FILMOTEKA</a>
+                                ..................................................................
+                                <span class="projects-bracket">[</span> HTML, Sass, JavaScript
+                                <span class="projects-bracket">]</span>
+                            </span>
+                        </li>
+                        <li class="projects-item">
+                            <span class="projects-text">
+                                <a class="projects-link" href="https://suizanna.github.io/goit-js-hw-13-image-finder/"
+                                    target="_blank">IMAGE-FINDER
+                                </a>
+                                ..........................................................
+                                <span class="projects-bracket">[</span> JavaScript <span
+                                    class="projects-bracket">]</span>
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Code Example -->
+                <section class="code-example" id="code">
+                    <h3 class="title">Code Example</h3>
+                    <p>
+                        Given a non-empty array of integers,
+                        return the result of multiplying the values together in order.
+                        Example:
+                        [1, 2, 3, 4] => 1 _ 2 _ 3 * 4 = 24
+                    </p>
+                    <pre>
+                    <code>                                       
+                        function grow2(x) {
+                            let total = x[0];
+                            
+                            x.forEach((el) => (total *= el));
+                            return total;
+                        }
+                    </code>
+                    </pre>
+                </section>
+
+                <!-- education-section -->
+                <section class="education" id="education">
+                    <h3 class="title">Additional Education</h3>
+                    <h3 class="education-experience">RS Schools «JavaScript/Front-end. Stage 1»</h3>
+                    <h4 class="education-position">Front-end Developer</h4>
+                    <p class="education-period">March 2022 - up to now
+                        <span class="divider">|</span> Ukraine
+                    </p>
+                </section>
+                <section class="education">
+                    <h3 class="section-title">Education</h3>
+                    <h3 class="education-experience">Lviv National Music Academy</h3>
+                    <h4 class="education-position">Bachelor | Musician</h4>
+                    <p class="education-period">September 2013 - June 2017
+                        <span class="divider">|</span> Ukraine
+                    </p>
+                </section>
+
+                <!-- footer -->
+                <footer>
+                    <section class="footer">
+                        <h3 class="footer-title">footer</h3>
+                        <ul class="footer-block">
+                            <li>
+                                <a class="footer-link" href="https://github.com/Suizanna/rsschool-cv" target="_blank">
+                                    <img class="footer-img" src="./assets/icons/Github_icon-icons.com_67091.svg" alt="Github Icon"
+                                        width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="https://rs.school/js-stage0/" target="_blank">
+                                    <img class="footer-img" src="./assets/icons/rs_school_js.svg" alt="rs_school icon" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <b>© 2022 siuzanna</b>
+                            </li>
+                        </ul>
+                    </section>
+                </footer>
+            </div>
+
+            <!-- sidebar -->
+            <aside class="sidebar-section">
+                <img class="photo" src="./assets/img/photo.JPG" alt="my photo">
+                <!-- contacts -->
+                <section class="" id="contacts">
+                    <div class="contacts-section">
+                        <h3 class="sidebar-title">Contacts</h3>
+                        <div>
+                            <span class="contacts-section-type">Phone:</span>
+                            <a class="contacts-section-link" href="tel:+380971367521">+38 097 136 75 21</a>
+                        </div>
+                        <div>
+                            <span class="contacts-section-type">E-mail:</span>
+                            <a class="contacts-section-link"
+                                href="mailto:maksimova2021@gmail.com">maksimova2021@gmail.com
+                            </a>
+                        </div>
+                        <div><span class="contacts-section-type">Telegram:</span>
+                            <a class="contacts-section-link" href="https://t.me/Suizanna_M">@Suizanna_M</a>
+                        </div>
+                        <div><span class="contacts-section-type">linkedin:</span>
+                            <a class="contacts-section-link"
+                                href="linkedin.com/in/suizanna-maksimova">suizanna-maksimova</a>
+                        </div>
+                        <div><span class="contacts-section-type">GitHub:</span>
+                            <a class="contacts-section-link" href="https://github.com/Suizanna">Suizanna</a>
+                        </div>
+                        <div><span class="contacts-section-type">Ukraine:</span>
+                            <a class="contacts-section-link" href="https://github.com/Suizanna">Krivoy Rog</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- tech skills -->
+                <section class="tech-skills-section" id="skills">
+                    <h3 class="sidebar-title">Tech Skills</h3>
+                    <ul class="tech-skills-list">
+                        <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
+                        <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
+                        <li class="tech-skills-item"><span class="tech-skills-text">GIT, GitHub</span></li>
+                        <li class="tech-skills-item"><span class="tech-skills-text">VS Code</span></li>
+                        <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li>
+                        <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
+                        <li class="tech-skills-item"><span class="tech-skills-text">React.js</span></li>
+                    </ul>
+                </section>
+
+                <!-- language -->
+                <section class="soft-skills-section" id="languages">
+                    <h3 class="sidebar-title">Language</h3>                  
+                    <ul>
+                        <li class="soft-skills-text">English - intermediate</li>
+                        <li class="soft-skills-text">Ukrainian - native</li>
+                        <li class="soft-skills-text">Russian - native</li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </main>
+</body>
+
+</html>
